@@ -16,7 +16,6 @@
 		1C28B494219BCE09001A9E80 /* UIButton+UC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C28B48F219BCE09001A9E80 /* UIButton+UC.m */; };
 		1C28B495219BCE09001A9E80 /* FileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C28B493219BCE09001A9E80 /* FileUtil.m */; };
 		1C28B499219BF763001A9E80 /* UIImage+UC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C28B498219BF763001A9E80 /* UIImage+UC.m */; };
-		1C28B49C219BF7B8001A9E80 /* UIColor+UC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C28B49B219BF7B8001A9E80 /* UIColor+UC.m */; };
 		1C28B49F219BF96B001A9E80 /* UIView+UC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C28B49E219BF96B001A9E80 /* UIView+UC.m */; };
 		1C28B4A2219BF9EC001A9E80 /* UITextField+UC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C28B4A1219BF9EC001A9E80 /* UITextField+UC.m */; };
 		1C28B4A5219BFA41001A9E80 /* UITableView+UC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C28B4A4219BFA41001A9E80 /* UITableView+UC.m */; };
@@ -42,8 +41,6 @@
 		1C28B496219BF6C5001A9E80 /* UCConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCConst.h; sourceTree = "<group>"; };
 		1C28B497219BF763001A9E80 /* UIImage+UC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+UC.h"; sourceTree = "<group>"; };
 		1C28B498219BF763001A9E80 /* UIImage+UC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UC.m"; sourceTree = "<group>"; };
-		1C28B49A219BF7B8001A9E80 /* UIColor+UC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+UC.h"; sourceTree = "<group>"; };
-		1C28B49B219BF7B8001A9E80 /* UIColor+UC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+UC.m"; sourceTree = "<group>"; };
 		1C28B49D219BF96B001A9E80 /* UIView+UC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+UC.h"; sourceTree = "<group>"; };
 		1C28B49E219BF96B001A9E80 /* UIView+UC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+UC.m"; sourceTree = "<group>"; };
 		1C28B4A0219BF9EC001A9E80 /* UITextField+UC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+UC.h"; sourceTree = "<group>"; };
@@ -117,8 +114,6 @@
 				1C28B490219BCE09001A9E80 /* UIButton+UC.h */,
 				1C28B497219BF763001A9E80 /* UIImage+UC.h */,
 				1C28B498219BF763001A9E80 /* UIImage+UC.m */,
-				1C28B49A219BF7B8001A9E80 /* UIColor+UC.h */,
-				1C28B49B219BF7B8001A9E80 /* UIColor+UC.m */,
 				1C28B49D219BF96B001A9E80 /* UIView+UC.h */,
 				1C28B49E219BF96B001A9E80 /* UIView+UC.m */,
 				1C28B4A0219BF9EC001A9E80 /* UITextField+UC.h */,
@@ -223,7 +218,6 @@
 				1C28B494219BCE09001A9E80 /* UIButton+UC.m in Sources */,
 				1C28B484219BC935001A9E80 /* main.m in Sources */,
 				1C28B476219BC933001A9E80 /* AppDelegate.m in Sources */,
-				1C28B49C219BF7B8001A9E80 /* UIColor+UC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
