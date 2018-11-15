@@ -24,6 +24,7 @@
 		1C2BAE58219D03FA00DCF3F5 /* NSString+UC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2BAE57219D03FA00DCF3F5 /* NSString+UC.m */; };
 		1C2BAE5B219D047B00DCF3F5 /* NSData+UC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2BAE5A219D047B00DCF3F5 /* NSData+UC.m */; };
 		1C2BAE5E219D050800DCF3F5 /* NSNumber+UC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2BAE5D219D050800DCF3F5 /* NSNumber+UC.m */; };
+		1C2BAE61219D423300DCF3F5 /* UIDevice+UC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2BAE60219D423300DCF3F5 /* UIDevice+UC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,8 @@
 		1C2BAE5A219D047B00DCF3F5 /* NSData+UC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+UC.m"; sourceTree = "<group>"; };
 		1C2BAE5C219D050800DCF3F5 /* NSNumber+UC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNumber+UC.h"; sourceTree = "<group>"; };
 		1C2BAE5D219D050800DCF3F5 /* NSNumber+UC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+UC.m"; sourceTree = "<group>"; };
+		1C2BAE5F219D423300DCF3F5 /* UIDevice+UC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+UC.h"; sourceTree = "<group>"; };
+		1C2BAE60219D423300DCF3F5 /* UIDevice+UC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+UC.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +130,8 @@
 				1C28B49E219BF96B001A9E80 /* UIView+UC.m */,
 				1C2BAE56219D03FA00DCF3F5 /* NSString+UC.h */,
 				1C2BAE57219D03FA00DCF3F5 /* NSString+UC.m */,
+				1C2BAE5F219D423300DCF3F5 /* UIDevice+UC.h */,
+				1C2BAE60219D423300DCF3F5 /* UIDevice+UC.m */,
 				1C2BAE5C219D050800DCF3F5 /* NSNumber+UC.h */,
 				1C2BAE5D219D050800DCF3F5 /* NSNumber+UC.m */,
 				1C2BAE59219D047B00DCF3F5 /* NSData+UC.h */,
@@ -231,6 +236,7 @@
 				1C28B4A2219BF9EC001A9E80 /* UITextField+UC.m in Sources */,
 				1C28B4A5219BFA41001A9E80 /* UITableView+UC.m in Sources */,
 				1C28B49F219BF96B001A9E80 /* UIView+UC.m in Sources */,
+				1C2BAE61219D423300DCF3F5 /* UIDevice+UC.m in Sources */,
 				1C2BAE58219D03FA00DCF3F5 /* NSString+UC.m in Sources */,
 				1C28B479219BC933001A9E80 /* ViewController.m in Sources */,
 				1C28B494219BCE09001A9E80 /* UIButton+UC.m in Sources */,

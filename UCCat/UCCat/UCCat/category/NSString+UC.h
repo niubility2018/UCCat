@@ -13,6 +13,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSString (UC)
 /**
+ 判断是否为空
+ */
++(NSString *)isEmptString:(id )obj;
+/**
  Returns a lowercase NSString for md2 hash.
  */
 - (nullable NSString *)md2String;

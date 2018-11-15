@@ -10,6 +10,34 @@
 #import "NSData+UC.h"
 #import "NSNumber+UC.h"
 @implementation NSString (UC)
+
+/*
+ * 判断是否为空
+ */
++(NSString *)isEmptString:(id )obj;
+{
+    if (obj == nil || obj == [NSNull null] ||
+        ([obj isKindOfClass:[NSString class]] && [obj length] == 0))
+    {
+        return @"";
+    }
+    else if ([obj isKindOfClass:[NSNumber class]])
+    {
+        return [obj stringValue];
+    }else if([obj isKindOfClass:[NSString class]]){
+        if([obj isEqual:@"null"])
+        {
+            return @"";
+            
+        }else
+        {
+            return obj;
+            
+        }
+    }
+    return obj;
+}
+
 - (NSString *)md2String {
     return [[self dataUsingEncoding:NSUTF8StringEncoding] md2String];
 }

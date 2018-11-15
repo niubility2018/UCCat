@@ -14,7 +14,7 @@
 
 #define screenHeight [UIScreen mainScreen].bounds.size.height
 #define screenWidth [UIScreen mainScreen].bounds.size.width
-
+#define kScale [UIScreen mainScreen].scale
 #define IOS8  ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)?YES:NO
 #define IOS12  ([[[UIDevice currentDevice] systemVersion] floatValue] >= 12.0)?YES:NO
 
