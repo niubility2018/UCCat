@@ -122,9 +122,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (NSString *)stringByURLDecode;
 
-/**
- Escape common HTML to Entity.
- */
+
 - (NSString *)stringByEscapingHTML;
 
 #pragma mark - Drawing
