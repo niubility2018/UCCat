@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "UCCat"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "UCCat"
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                    一个关于category和utils的集合工具 更新
+                    一个关于category和utils的集合工具 持续更新。。。
                    DESC
 
   s.homepage     = "https://github.com/niubility2018/UCCat"
